@@ -130,6 +130,8 @@ a:focus-visible, button:focus-visible{
   outline-offset:3px;
   border-radius:4px;
 }
+/* the hero stays dark in both themes, so its focus ring keeps the gold */
+#hero a:focus-visible{ outline-color:var(--gold); }
 
 /* subtle grain overlay used across dark sections */
 .grain{
